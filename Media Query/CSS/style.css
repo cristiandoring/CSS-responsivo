@@ -1,0 +1,16 @@
+h1{
+    color: red;
+}
+
+/*quando for maior que 200px de largura, a cor será azul*/
+@media screen and (min-width: 200px){
+    h1{
+        color: blue;
+    }
+}
+
+@media (min-width: 501px) and (max-width:750px){
+    h1{
+        color: green;
+    }
+}
